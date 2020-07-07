@@ -19,7 +19,7 @@ function About() {
                 </Row>
                 <Row className='justify-content-center'>
                     <Col lg={true} className="p-2 text-center">
-                        <img src={Profile} alt="profile of Martha" style={{width: 'auto', maxWidth: '100%', height: 'auto'}} />
+                        <img src={Profile} alt="profile of Martha" style={{width: 'auto', maxWidth: '100%', height: 'auto'}} className="CardShadow" />
                     </Col>
                     <Col lg={true} className="p-2">
                         <p>In 2016, I combined my love of computers with my artistic passion to become a web developer. </p>

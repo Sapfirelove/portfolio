@@ -23,7 +23,7 @@ function Projects() {
             </Row>
                 <Container className="justify-content-center">
                     <CardDeck>
-                        <Card>
+                        <Card className="CardShadow">
                             <Card.Img variant="top" src={marthaduzzart} />
                             <Card.Body>
                                 <Card.Title>MarthaDuzzArt's Website</Card.Title>
@@ -36,7 +36,7 @@ function Projects() {
                                 variant="dark">View</Button>
                             </Card.Body>
                         </Card>
-                        <Card>
+                        <Card className="CardShadow">
                             <Card.Img variant="top" src={backgroundcolorgen} />
                             <Card.Body>
                                 <Card.Title>Background Color Generator</Card.Title>
@@ -49,7 +49,7 @@ function Projects() {
                                 variant="dark">View</Button>
                             </Card.Body>
                         </Card>
-                        <Card>
+                        <Card className="CardShadow">
                             <Card.Img variant="top" src={robofriends} />
                             <Card.Body>
                                 <Card.Title>Robofriends</Card.Title>
