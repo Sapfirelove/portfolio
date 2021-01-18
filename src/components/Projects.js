@@ -26,9 +26,9 @@ function Projects() {
                         <Card className="CardShadow">
                             <Card.Img variant="top" src={marthaduzzart} />
                             <Card.Body>
-                                <Card.Title>MarthaDuzzArt's Website</Card.Title>
+                                <Card.Title>MarthaDuzzArt's Website <br /> (Unsupported) </Card.Title>
                                 <Card.Text>
-                                    React website created to showcase my artistc side.
+                                    React website created to showcase my artistc side. 
                                 </Card.Text>
                                 <Button 
                                 href="https://marthaduzzart.netlify.app/#/" 
