@@ -22,10 +22,9 @@ function About() {
                         <img src={Profile} alt="profile of Martha" style={{width: 'auto', maxWidth: '100%', height: 'auto'}} className="CardShadow" />
                     </Col>
                     <Col lg={true} className="p-2">
-                        <p>In 2016, I combined my love of computers with my artistic passion to become a web developer. </p>
+                        <p>In 2016, I combined my love of computers with my artistic passion to become a programmer. </p>
                         <p>In 2017, I stumbled upon a course on HTML/CSS. I was intrigued, falling into a hole of code. I was hooked, excited, thrilled to find any information on other languages. </p>
-                        <p>In 2018, I enrolled in a Bachelor’s program, Cloud and System Administration, at Western Governors University. </p>
-                        <p>Currently, I am completing my goal of becoming a Full-Stack Developer. </p>
+                        <p>In 2018, I enrolled for Bachelor’s of Science, Cloud Computing, at Western Governors University. </p>
                     </Col>
                 </Row>
             </Jumbotron>
