@@ -18,7 +18,7 @@ function Contact() {
             </Row>
             <Row>
                 <Col lg={true} className="p-2">
-                    <SocialIcon className="socialLink" url="https://www.linkedin.com/in/martha-schiebel" />
+                    <SocialIcon className="socialLink" url="https://www.linkedin.com/in/marthaschiebel/" />
                     <SocialIcon className="socialLink" url="https://github.com/Sapfirelove" />
                 </Col>
             </Row>
