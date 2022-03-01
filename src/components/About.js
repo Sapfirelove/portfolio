@@ -5,13 +5,12 @@ import Profile from '../Assets/profile.jpeg';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Jumbotron from 'react-bootstrap/Jumbotron';
 
 function About() {
 
     return (
         <Container className="border-bottom about-page pt-5" id="About">
-            <Jumbotron className="bg-transparent">
+            
                 <Row className="justify-content-center pb-4">
                     <Col className="text-center">
                     <h1>About Me</h1>
@@ -27,7 +26,7 @@ function About() {
                         <p>In 2018, I enrolled for Bachelor’s of Science, Cloud Computing, at Western Governors University. </p>
                     </Col>
                 </Row>
-            </Jumbotron>
+
         </Container>
         
     );

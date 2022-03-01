@@ -5,6 +5,10 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+import {ThemeProvider} from "styled-components";
+import { GlobalStyles } from "./components/Globalstyle";
+import { lightTheme, darkTheme } from "./components/Themes"
+
 //Components
 import Header from './components/Header';
 import About from './components/About';
@@ -17,7 +21,7 @@ import './App.css';
 
 function App() {
   return (
-    <Container className="p-0" fluid={true}>
+    <Container className="p-0" fluid={true} variant="light">
       <Header />
       <Row className="text-center p-5">
         <Col className="text-center">
